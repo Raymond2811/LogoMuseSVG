@@ -6,6 +6,13 @@ const questions = [
         type:'input',
         name:'logoName',
         message:'Enter logo name(max 3 characters):',
+        validate: (input) => {
+            if(input.length === 3){
+                return true;
+            }else{
+                return "Please enter a logo name with a maximum of 3 characters.";
+            }
+        },
     },
     {
         type:'input',
