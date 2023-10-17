@@ -37,7 +37,7 @@ function init() {
     inquirer.prompt(questions).then((answers)=> {
         const {shape, shapeColor, logoName, textColor} = answers;
         const shapeSVG = generateShape(shape,shapeColor);
-        const textSVG = `<text x="137" y="100" fill="${textColor}">${logoName}</text>`;
+        const textSVG = `<text x="118" y="110" fill="${textColor}" style="font-size: 35">${logoName} </text>`;
 
         const svg = `
         <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
