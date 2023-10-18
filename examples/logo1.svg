@@ -1,0 +1,6 @@
+
+        <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="150" cy="100" r="50" fill="BLUE" />
+        <text x="118" y="110" fill="WHITE" style="font-size: 30">VBN </text>
+        </svg>
+        
